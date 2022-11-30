@@ -12,7 +12,7 @@ def your_function(current_coords, to_coords, stepInXMovement,stepInYMovement):
     longitude = current_coords[0]
     latitude = current_coords[1] #set new cordinated for the drone
     latitude += 10
-    """
+    
     lengthXLeft = current_coords[0] - to_coords[0] #to se the length left to go
     lengthYLeft = current_coords[1] - to_coords[1]
     if((lengthXLeft > stepLength or lengthXLeft < -stepLength) and (lengthYLeft > stepLength or lengthYLeft < -stepLength)): #check to se if drone is close to the point
@@ -21,7 +21,7 @@ def your_function(current_coords, to_coords, stepInXMovement,stepInYMovement):
     else: #when almost there go to the location
         longitude = to_coords[0]
         latitude = to_coords[1]
-    time.sleep(1000)"""
+    time.sleep(1000)
     
 
     return (longitude, latitude)
