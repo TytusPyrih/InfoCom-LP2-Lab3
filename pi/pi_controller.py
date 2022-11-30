@@ -11,7 +11,6 @@ stepLength = 1
 def your_function(current_coords, to_coords, stepInXMovement,stepInYMovement):
     longitude = current_coords[0]
     latitude = current_coords[1] #set new cordinated for the drone
-    latitude += 10
     
     lengthXLeft = current_coords[0] - to_coords[0] #to se the length left to go
     lengthYLeft = current_coords[1] - to_coords[1]
